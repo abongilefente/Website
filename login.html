@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Mortgage calculator 1</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css.css"> 	
+	<script language="javascript" src="multiply.js"></script>
+</head>
+<body>
+	<div class="header">
+	  <h1>
+Home Loan Bond Calculators</h1>
+	  <p>Slogan</p>
+	</div>
+
+	<div class="topnav">
+	  <a href="login.html">With Deposit</a>
+	  <a href="index.html">No Deposit</a>
+	  <a href="#">Amount paid</a>
+	</div>
+	</div>
+
+	<div class="row">
+	
+	<div class="column side">
+		<h2>Information</h2>
+		<h6>1. Interest Rate</h6>
+		<h6>2. purchase price</h6><br>
+		<h6>3. Deposit</h6><br>
+		<h6>4. Bond Term in years</h6><br><br><br><br><br><br><br><br>
+		<h6>Montly installment</h6>
+	</div>
+	  
+	  <div class="column middle">
+	  <h2>Information</h2>
+	  
+		 <input type="InterestRate" id="InterestRate" name="InterestRate" value="6.5"/> <br>
+		  <input type="Borrowed" id="Borrowed " name="Borrowed " value="200000"/> <br>
+		  <input 	type="installments" id="installments" name="installments" value="30"/> <br><br>	
+		  <input 	type="Deposit" id="Deposit" name="Deposit" value="50000"/> <br><br>			
+		<input type="button" name="Sumbit" value="calculate" onclick="javascript:addNumbers()"/><br>
+		 <input type="answer" id="answer" name="answer" value=""/>
+	  
+		</div>
+	  
+	  <div class="column side">
+		<h2>Instructions</h2>
+		<p>Do this and do not do that.</p>
+	  </div>
+	</div>
+
+	<div class="footer">
+	  <p>Thanks!</p>
+	</div>
+	  
+</body>
+</html>

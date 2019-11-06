@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Mortgage calculator 2</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	<link rel="stylesheet" href="css.css"> 	
+	<script language="javascript" src="multiply.js"></script>
+</head>
+<body>
+	<div class="header">
+	  <h1>Mortgage calculator</h1>
+	  <p>Slogan</p>
+	</div>
+
+	<div class="topnav">
+	  <a href="login.html">With Deposit</a>
+	  <a href="index.html">No Deposit</a>
+	  <a href="#">Amount paid</a>
+	</div>
+
+	<div class="row">
+	<div class="column side">
+		<h2>Information</h2>
+		Interest Rate<br>
+		purchase price<br>
+		Bond Term in years<br>
+		Montly installment
+	</div>
+	  
+	  <div class="column middle">
+	  <h2>Information</h2>
+	  
+		 <input type="InterestRate" id="InterestRate" name="InterestRate" value="6.5"/> <br>
+		  <input type="Borrowed" id="Borrowed " name="Borrowed " value="200000"/> <br>
+		  <input 	type="installments" id="installments" name="installments" value="30"/> <br><br>	
+		  <input 	type="Deposit" id="Deposit" name="Deposit" value="50000"/> <br><br>			
+		<input type="button" name="Sumbit" value="calculate" onclick="javascript:addNumbers()"/><br>
+		  <input type="answer" id="answer" name="answer" value=""/>
+	  
+		</div>
+	  
+	  <div class="column side">
+		<h2>Instructions</h2>
+		<p>Do this and do not do that.</p>
+	  </div>
+	</div>
+
+	<div class="footer">
+	  <p text="Disclaimer">Disclaimer: Please note that by default this calculator uses the prime interest rate for bond payment calculations.
+	  This is purely for convenience and not an indication of the interest rate that might be offered to you by a bank.
+	  This calculator is intended to provide estimates based on the indicated amounts, 
+	  rates and fees. Whilst we make every effort to ensure the accuracy of these calculations, we cannot be held liable 
+	  for inaccuracies. Property24 does not accept liability for any damages arising from the use of this calculator.</p>
+	</div>
+	  
+</body>
+</html>
