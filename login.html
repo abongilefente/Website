@@ -17,8 +17,8 @@ Home Loan Bond Calculators</h1>
 	</div>
 
 	<div class="topnav">
-	  <a href="login.html">With Deposit</a>
-	  <a href="index.html">No Deposit</a>
+	  <a href="index.html">With Deposit</a>
+	  <a href="login.html">No Deposit</a>
 	  <a href="#">Amount paid</a>
 	</div>
 	</div>
@@ -26,19 +26,25 @@ Home Loan Bond Calculators</h1>
 	<div class="row">
 	
 	<div class="column side">
+		
 		<h2>Information</h2>
-		<h6>1. Interest Rate</h6>
-		<h6>2. purchase price</h6><br>
-		<h6>3. Deposit</h6><br>
+		<h6 text="purchasePrice">1. purchase price</h6><br>	
+		<h6>2. Interest Rate</h6>
+		
+		<h6 text="Deposit">3. Deposit</h6><br>
 		<h6>4. Bond Term in years</h6><br><br><br><br><br><br><br><br>
 		<h6>Montly installment</h6>
 	</div>
 	  
+	<div class="column side">
+		<h2>Instructions</h2>
+		<p>Do this and do no------.</p>
+	  </div>
 	  <div class="column middle">
 	  <h2>Information</h2>
-	  
+		<input type="Borrowed" id="Borrowed " name="Borrowed " value="200000"/> <br>
 		 <input type="InterestRate" id="InterestRate" name="InterestRate" value="6.5"/> <br>
-		  <input type="Borrowed" id="Borrowed " name="Borrowed " value="200000"/> <br>
+		  
 		  <input 	type="installments" id="installments" name="installments" value="30"/> <br><br>	
 		  <input 	type="Deposit" id="Deposit" name="Deposit" value="50000"/> <br><br>			
 		<input type="button" name="Sumbit" value="calculate" onclick="javascript:addNumbers()"/><br>
@@ -46,14 +52,15 @@ Home Loan Bond Calculators</h1>
 	  
 		</div>
 	  
-	  <div class="column side">
-		<h2>Instructions</h2>
-		<p>Do this and do not do that.</p>
-	  </div>
+	  
 	</div>
 
 	<div class="footer">
-	  <p>Thanks!</p>
+	  <p text="Disclaimer">Disclaimer: Please note that by default this calculator uses the prime interest rate for bond payment calculations.
+	  This is purely for convenience and not an indication of the interest rate that might be offered to you by a bank.
+	  This calculator is intended to provide estimates based on the indicated amounts, 
+	  rates and fees. Whilst we make every effort to ensure the accuracy of these calculations, we cannot be held liable 
+	  for inaccuracies. Property24 does not accept liability for any damages arising from the use of this calculator.</p>
 	</div>
 	  
 </body>

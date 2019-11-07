@@ -7,31 +7,40 @@
 		
 	<link rel="stylesheet" href="css.css"> 	
 	<script language="javascript" src="multiply.js"></script>
+	
+	  
+ <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script></head>
 </head>
 <body>
 	<div class="header">
+	
+	
+	
 	  <h1>Mortgage calculator</h1>
 	  <p>Slogan</p>
 	</div>
 
 	<div class="topnav">
-	  <a href="login.html">With Deposit</a>
-	  <a href="index.html">No Deposit</a>
+	  <a href="index.html">With Deposit</a>
+	  <a href="login.html">No Deposit</a>
 	  <a href="#">Amount paid</a>
 	</div>
 
 	<div class="row">
 	<div class="column side">
 		<h2>Information</h2>
-		Interest Rate<br>
-		purchase price<br>
-		Bond Term in years<br>
-		Montly installment
+		<h6 text="purchasePrice">1. purchase price</h6><br>	
+		
+		<h6>2. Interest Rate</h6>
+		
+		<h6 text="Deposit">3. Deposit</h6><br>
+		<h6>4. Bond Term in years</h6><br><br><br><br><br><br><br><br>
+		<h6>Montly installment</h6>
 	</div>
 	  
 	  <div class="column middle">
 	  <h2>Information</h2>
-	  
+		<input type="Borrowed" id="Borrowed " name="Borrowed " value="200000"/> <br>
 		 <input type="InterestRate" id="InterestRate" name="InterestRate" value="6.5"/> <br>
 		  <input type="Borrowed" id="Borrowed " name="Borrowed " value="200000"/> <br>
 		  <input 	type="installments" id="installments" name="installments" value="30"/> <br><br>	
@@ -43,7 +52,7 @@
 	  
 	  <div class="column side">
 		<h2>Instructions</h2>
-		<p>Do this and do not do that.</p>
+		<div id="chartContainer" style="height: 300px; width: 100%;"></div>
 	  </div>
 	</div>
 

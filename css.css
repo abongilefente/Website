@@ -74,6 +74,7 @@ input[type=Deposit] {
   margin: 8px 0;
   box-sizing: border-box;
   border-radius: 7px;
+  
 }
 
 
@@ -96,7 +97,7 @@ body {
 
 /* Left and right column */
 .column.side {
-  width: 25%;
+  width: 20%;
 }
 
 /* Middle column */
@@ -136,10 +137,34 @@ h6 {
   margin-right: 0;
   font-weight: bold;
 }
+
+h6[text=purchasePrice] { 
+  display: block;
+  font-size: 15px;
+  margin-top: 0.67em;
+  margin-bottom: 0;
+  margin-left: 50px;
+  margin-right: 0;
+  font-weight: bold;
+  margin-top: 40px;
+}
 p[text=Disclaimer]{
+	
 	 font-size: 12px;
 	 font-style: italic;
 	
+}
+h6[text=Deposit] { 
+  display: block;
+  font-size: 15px;
+  margin-top: 0.67em;
+  margin-bottom: 0;
+  margin-left: 50px;
+  margin-right: 0;
+  font-weight: bold;
+  margin-top: 40px;
+
+margin-top: 40px;  color:red;
 }
 
 
